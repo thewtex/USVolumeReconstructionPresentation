@@ -2,7 +2,7 @@ import SimpleITK as sitk
 import sys
 import os
 
-if len(sys.argv) < 2:
+if len(sys.argv) < 3:
     print('Usage: ' + sys.argv[0] + ' <sequence_file> <output_dir>')
     sys.exit(1)
 
